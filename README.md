@@ -2,7 +2,6 @@
 
 
 [![npm](https://img.shields.io/npm/v/wepy-plugin-resources-cdn.svg)](https://www.npmjs.com/package/wepy-plugin-resources-cdn)
-
 [![npm](https://img.shields.io/npm/l/wepy-plugin-resources-cdn.svg)](https://www.npmjs.com/package/wepy-plugin-resources-cdn)
 
 
