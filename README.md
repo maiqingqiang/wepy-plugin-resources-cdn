@@ -2,11 +2,9 @@
 
 ## 介绍
 
-由于小程序代码包限制2M，经常会因为代码包超出2M而无法上传代码。一般都是因为图片等资源用得太多
-而导致包太大，因此我们会把图片放到服务器或CDN中，从而减少包体积。
+由于小程序代码包限制2M，经常会因为代码包超出2M而无法上传代码。一般都是因为图片等资源用得太多而导致包太大，因此我们会把图片放到服务器或CDN中，从而减少包体积。
 
-为了方便把代码包中的图片上传到CDN中，本人开发了`wepy-plugin-resources-cdn`插件，在打包
-小程序时会自动把代码中用到的图片上传到指定的CDN中。
+为了方便把代码包中的图片上传到CDN中，本人开发了`wepy-plugin-resources-cdn`插件，在打包小程序时会自动把代码中用到的图片上传到指定的CDN中。
 
 ## 特性
 
@@ -68,4 +66,4 @@ module.exports.plugins = {
 };
 ```
 
-[License MIT]()
+[License MIT](https://github.com/xiaomak/wepy-plugin-resources-cdn/blob/master/LICENSE)
