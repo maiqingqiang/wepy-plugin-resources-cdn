@@ -1,5 +1,11 @@
 # wepy-plugin-resources-cdn
 
+
+[![npm](https://img.shields.io/npm/v/wepy-plugin-resources-cdn.svg)](https://www.npmjs.com/package/wepy-plugin-resources-cdn)
+
+[![npm](https://img.shields.io/npm/l/wepy-plugin-resources-cdn.svg)](https://www.npmjs.com/package/wepy-plugin-resources-cdn)
+
+
 ## 介绍
 
 由于小程序代码包限制2M，经常会因为代码包超出2M而无法上传代码。一般都是因为图片等资源用得太多而导致包太大，因此我们会把图片放到服务器或CDN中，从而减少包体积。
@@ -21,7 +27,7 @@
 ## 安装
 
 ```
-npm install wepy-plugin-resources-cdn --save-dev
+npm i wepy-plugin-resources-cdn --save-dev
 ```
 
 ## 配置`wepy.config.js`

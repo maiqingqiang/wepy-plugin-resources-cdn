@@ -34,5 +34,18 @@
       "es2015",
       "stage-1"
     ]
+  },
+  "keywords": [
+    "wepy",
+    "wepy-plugin",
+    "wepy-plugin-resources-cdn",
+    "cdn"
+  ],
+  "bugs": {
+    "url": "https://github.com/xiaomak/wepy-plugin-resources-cdn/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xiaomak/wepy-plugin-resources-cdn.git"
   }
 }
