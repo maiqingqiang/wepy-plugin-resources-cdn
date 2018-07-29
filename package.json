@@ -1,0 +1,38 @@
+{
+  "name": "wepy-plugin-resources-cdn",
+  "version": "0.0.1-beta",
+  "description": "upload wepy resources to cdn",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src/ --out-dir lib/",
+    "watch-compile": "npm run build -- --watch",
+    "watch": "npm run watch-compile",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John.Mai",
+  "license": "MIT",
+  "dependencies": {
+    "ali-oss": "^6.0.1",
+    "colors": "^1.3.1",
+    "cos-nodejs-sdk-v5": "^2.4.7",
+    "fs": "0.0.1-security",
+    "ms": "^2.1.1",
+    "path": "^0.12.7",
+    "promise": "^8.0.1",
+    "qiniu": "^7.2.1",
+    "upyun": "^3.3.4"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-1"
+    ]
+  }
+}
