@@ -1,6 +1,6 @@
 {
   "name": "wepy-plugin-resources-cdn",
-  "version": "0.0.1-beta",
+  "version": "0.0.1-beta1",
   "description": "upload wepy resources to cdn",
   "main": "lib/index.js",
   "scripts": {
