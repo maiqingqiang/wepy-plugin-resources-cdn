@@ -5,6 +5,7 @@ import QiniuDriver from './driver/qiniu';
 import UpyunDriver from './driver/upyun';
 import CosDriver from './driver/cos';
 import OssDriver from './driver/oss';
+import S3Driver from './driver/s3';
 
 export default class CloudStorage {
   constructor(options = {}) {
@@ -31,6 +32,9 @@ export default class CloudStorage {
         break;
       case 'oss':
         this.driver = new OssDriver(this.options);
+        break;
+      case 's3':
+        this.driver = new S3Driver(this.options);
         break;
       default:
         Utils.error('THE DRIVER NOT FOUND');

@@ -63,6 +63,13 @@ module.exports.plugins = {
             region: 'oss-cn-shenzhen',
             secure: true    //开启https
           },
+           s3: {            //s3配置
+            accessKeyId: 'xxxxx',
+            accessKeySecret: 'xxxxx',
+            bucket: 'xxxxx',
+            region: 'oss-cn-shenzhen',
+            domain: 'xxxx'
+          },
           config: {
             prefix: 'cdn-wxapp',  //上传前缀
             debugMode: true,      //开启debug
@@ -71,7 +78,5 @@ module.exports.plugins = {
         }
 };
 ```
-
-![截图](http://7xk671.com1.z0.glb.clouddn.com/WX20180729-193425@2x.png)
 
 [License MIT](https://github.com/xiaomak/wepy-plugin-resources-cdn/blob/master/LICENSE)
