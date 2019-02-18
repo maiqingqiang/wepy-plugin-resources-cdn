@@ -68,7 +68,7 @@ module.exports.plugins = {
             accessKeyId: 'xxxxx',
             accessKeySecret: 'xxxxx',
             bucket: 'xxxxx',
-            region: 'oss-cn-shenzhen',
+            region: 'us-east-2',
             domain: 'xxxx'
           },
           config: {
